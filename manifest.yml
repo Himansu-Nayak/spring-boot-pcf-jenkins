@@ -1,0 +1,6 @@
+---
+applications:
+- name: spring-boot-pcf-jenkins
+  instances: 1
+  memory: 800m
+  path: target/spring-boot-pcf-jenkins-0.0.1-SNAPSHOT.jar
